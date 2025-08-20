@@ -1,2 +1,2 @@
-# aurchat-web
-Vue 3.6 + Vite SPA for AurChat; runs in browser and wrapped by desktop / mobile shells.
+# AurChat-Web
+> 基于 Go + Vue3 的多端即时聊天系统 —— Web端
