@@ -1,0 +1,10 @@
+{
+    "auth": {
+        "plsInput": "Please Input ",
+        "signIn": "Sign in",
+        "signUp": "Sign up",
+        "password": "Password",
+        "accountName": "Account Name",
+        "email": "Email"
+    }
+}

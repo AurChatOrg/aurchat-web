@@ -1,0 +1,10 @@
+{
+    "auth": {
+        "plsInput": "请输入",
+        "signIn": "登录",
+        "signUp": "注册",
+        "password": "密码",
+        "accountName": "账号名称",
+        "email": "邮箱地址"
+    }
+}
