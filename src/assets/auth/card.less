@@ -1,0 +1,42 @@
+@import '@/assets/settings';
+
+// Card width responsive
+.card-width(@base: 18rem) {
+	width: @base; // Default phone vertical screen 18 rem
+
+	@media (min-width: @sm) {
+		width: @base + 2; // Use 20rem on Mobile landscape/small tablet
+	}
+
+	@media (min-width: @md) {
+		width: @base + 4; // Use 22rem on Tablet
+	}
+
+	@media (min-width: @lg) {
+		width: @base + 6; // use 24rem on Small screen notebook and Desktop
+	}
+}
+
+// Glass blur effect
+.glass(@blur: 30px; @padding: 1.5rem; @radius: 1rem) {
+	position: relative;
+	padding: @padding;
+	border-radius: @radius;
+	overflow: hidden;
+
+	backdrop-filter: blur(@blur);
+	-webkit-backdrop-filter: blur(@blur);
+
+	background-color: fade(#ffffff, 28%);
+
+	box-shadow:
+		inset 0 0 0 1px fade(#ffffff, 20%),
+		0 8px 32px fade(#000000, 18%);
+}
+
+// Card settings
+.card-settings {
+	backdrop-filter: blur(40px) saturate(250%);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+}

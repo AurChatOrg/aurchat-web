@@ -5,6 +5,12 @@
         "signUp": "Sign up",
         "password": "Password",
         "accountName": "Account Name",
-        "email": "Email"
+        "email": "Email",
+        "confirmPassword": "Confirm Password"
+    },
+    "route": {
+        "SignIn": "AurChat - Sign in to your account",
+        "SignUp": "AurChat - Create your account",
+        "Home": "AurChat"
     }
 }

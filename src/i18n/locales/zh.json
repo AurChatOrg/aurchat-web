@@ -5,6 +5,12 @@
         "signUp": "注册",
         "password": "密码",
         "accountName": "账号名称",
-        "email": "邮箱地址"
+        "email": "邮箱地址",
+        "confirmPassword": "确认密码"
+    },
+    "route": {
+        "SignIn": "AurChat - 登录",
+        "SignUp": "AurChat - 注册",
+        "Home": "AurChat"
     }
 }
